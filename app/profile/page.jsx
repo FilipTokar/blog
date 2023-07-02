@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-     this is feed page 
+      this is profile page
     </div>
   )
 }
