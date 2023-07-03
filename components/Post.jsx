@@ -7,7 +7,7 @@ const Post = () => {
     <div className="flex flex-col bg-gradient-radial from-black to-customGray shadow-xl shadow-black rounded-3xl w-full h-[400px] hover:scale-105 active:scale-95 transition-all cursor-pointer">
       <div className="relative h-2/3">
         <div className="absolute inset-0 overflow-hidden">
-          <Image src={img} className="rounded-t-3xl"/>
+          <Image src={img} className="rounded-t-3xl" alt="post_img"/>
         </div>
         <div className="absolute z-10 bottom-6 right-6 bg-customGray p-3 rounded-3xl">Read more</div>
       </div>

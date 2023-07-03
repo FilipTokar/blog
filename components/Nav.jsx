@@ -17,7 +17,7 @@ function Nav() {
         <Link href={"/profile"} className="hover:text-green-500">
           My Profile
         </Link>
-        <Image src={linkedin} width={35} height={35} className="rounded-full"/>
+        <Image src={linkedin} width={35} height={35} className="rounded-full" alt="profile"/>
         <button className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 py-2 px-4 rounded-xl hover:bg-green-600">
           Logout
         </button>

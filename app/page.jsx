@@ -24,15 +24,15 @@ export default function Home() {
             </Link>
 
             <Link
-              href={"/feed"}
+              href={"/posts"}
               className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 rounded-xl w-2/5 h-11 flex items-center justify-center"
             >
-              Feed
+              Posts
             </Link>
           </div>
         </div>
         <div className="w-1/2 flex justify-center">
-          <Image src={img} />
+          <Image src={img} alt="homepage_picture" />
         </div>
       </div>
     </>
