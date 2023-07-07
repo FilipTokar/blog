@@ -17,7 +17,7 @@ export default function Home() {
           </p>
           <div className="flex gap-x-4">
             <Link
-              href={"/feed"}
+              href={"/"}
               className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 rounded-xl w-2/5 h-11 flex items-center justify-center"
             >
               Login

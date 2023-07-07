@@ -1,9 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import img from "@/public/bridge.jpg";
+import Link from "next/link";
 
 const Post = () => {
   return (
+    <Link href={"/posts/testId"}>
     <div className="flex flex-col bg-gradient-radial from-black to-customGray shadow-xl shadow-black rounded-3xl w-full h-[400px] hover:scale-105 active:scale-95 transition-all cursor-pointer">
       <div className="relative h-2/3">
         <div className="absolute inset-0 overflow-hidden">
@@ -16,6 +18,8 @@ const Post = () => {
         <p>para</p>
       </div>
     </div>
+    </Link>
+    
   );
 };
 
