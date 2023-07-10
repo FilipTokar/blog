@@ -5,7 +5,7 @@ import github from "../public/github.svg";
 
 function Footer() {
   return (
-    <footer className="flex justify-between items-center h-14 text-sm text-gray-300 font-normal">
+    <footer className="flex justify-between items-center h-14 text-sm text-gray-300 font-normal mt-2">
       <div>@2023 Filip Tokar. All right reserved.</div>
       <div className="flex gap-6">
           <a href="https://www.linkedin.com/in/filiptokar/" target="_blank" rel="noreferrer">

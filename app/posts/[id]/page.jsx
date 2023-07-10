@@ -6,9 +6,9 @@ import profileImg from "@/public/profile2.jpg";
 const page = () => {
   return (
     <div className=" bg-customGray shadow-xl shadow-black rounded-3xl p-6">
-      <div className="flex flex-row mb-12 gap-3">
-        <div className="flex flex-col justify-center w-1/2 gap-4">
-          <h2 className="text-5xl">
+      <div className="flex flex-col lg:flex-row mb-12 gap-3">
+        <div className="flex flex-col justify-center w-full lg:w-1/2 gap-4">
+          <h2 className="text-center font-bold text-3xl sm:text-left sm:text-4xl md:text-5xl lg:text-6xl">
             Crossing Boundaries: Exploring the Magnificent Bridges Around the
             World
           </h2>
@@ -26,7 +26,7 @@ const page = () => {
             <p>Emily Anderson</p>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <Image src={img} className="rounded-3xl" alt={"post_img"} />
         </div>
       </div>
